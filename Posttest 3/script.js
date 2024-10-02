@@ -33,7 +33,7 @@ window.addEventListener('scroll', () => {
     const scrollY = window.scrollY + window.innerHeight;
     const documentHeight = document.documentElement.scrollHeight;
 
-    if (scrollY <= documentHeight - 10) {
+    if (scrollY <= documentHeight - 50) {
         footer.classList.add('visible');
     } else {
         footer.classList.remove('visible');
